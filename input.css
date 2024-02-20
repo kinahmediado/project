@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('amenities/Picsart_24-01-25_12-30-03-201.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 13%;
+
+}
+h1{
+    color: #090a09;
+}
+header, nav, section, footer {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #13abf1bd;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(15, 14, 14);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        width: 100%;
+        text-align: center;
+    }
+}
